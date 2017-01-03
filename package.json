@@ -6,7 +6,9 @@
   "scripts": {
     "prod": "gulp",
     "dev": "gulp -d",
-    "analyze": "webpack-bundle-analyzer ./build/bundle_stats.json"
+    "build": "gulp build",
+    "analyze": "webpack-bundle-analyzer ./build/bundle_stats.json",
+    "test": "mocha"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.4.0",
@@ -43,6 +45,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.9",
+    "mocha": "^3.2.0",
     "node-sass": "^3.8.0",
     "npm": "^4.0.3",
     "postcss-loader": "^0.10.1",
@@ -68,6 +71,5 @@
   },
   "repository": "",
   "license": "MIT",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
