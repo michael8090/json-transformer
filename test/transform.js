@@ -21,7 +21,7 @@ let hashSchema = {
             }
         }
     }
-}
+};
 
 let arrScehema = {
     children: {
