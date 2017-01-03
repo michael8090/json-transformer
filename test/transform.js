@@ -2,10 +2,16 @@ const {reviveSchema, transform} = require('../build/main.js');
 const assert = require('assert');
 
 let hashSchema = {
+    // `properties` indicate it's a object
     properties: {
+        // sx1 is the `source` key, the key from the server
+        // tx1 is the `target` key
         tx1: 'sx1',
+        // if it's a symble '=', we treat it as `tx3: 'tx3'`
         tx3: '=',
-        tz1: () => 1,
+        // an arbitrary function to do the transform
+        tz1: (jsonNodeData) => 1,
+        // nested schema
         ty: {
             name: 'oy',
             test: '1',
@@ -16,12 +22,13 @@ let hashSchema = {
         },
         tz: {
             name: 'oy2',
+            // if it's an array, use `children` instead
             children: {
                 tk1: 'ok2'
             }
         }
     }
-};
+}; 
 
 let arrScehema = {
     children: {

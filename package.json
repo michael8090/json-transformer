@@ -1,7 +1,7 @@
 {
   "name": "json-shapper",
   "description": "A simple and flexible json transformer that allows developers to declare the transformation from the source to the target (possibly from server json to client json). Supporting plugins for easy customization.",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "main": "lib/main.js",
   "scripts": {
     "prod": "gulp",
