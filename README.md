@@ -2,7 +2,7 @@
 ---
 
 ## why
-Based on my experience, it's a common situation where the JSON data returned from server need to be transformed to meet the requirement of your client model. That's where this transformer comes in.
+Based on my experience, it's a common situation where the JSON data returned from server needs to be transformed to meet the requirement of my client model. That's where this transformer comes in.
 
 ## features
 
