@@ -32,7 +32,7 @@ export interface ArraySchema extends BaseCompoundSchema {
     };
 }
 
-type CompoundSchema = ObjectSchema | ArraySchema;
+export type CompoundSchema = ObjectSchema | ArraySchema;
 
 /**
  * Simplified schemas are tolerant, will be revived into FullSchema
