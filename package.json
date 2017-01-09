@@ -1,7 +1,7 @@
 {
   "name": "json-shapper",
   "description": "A simple and flexible json transformer that allows developers to declare the transformation from the source to the target (possibly from server json to client json). Supporting plugins for easy customization.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "build/main.js",
   "types": "build/src/client/index.d.ts",
   "scripts": {

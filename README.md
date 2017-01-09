@@ -19,7 +19,7 @@ npm install --save json-shapper
 define a schema via `simplified schema`:
 
 ```js
-const {reviveSchema, transform} = require('jsonate');
+const {reviveSchema, transform} = require('json-shapper');
 
 //
 let hashSchema = {
